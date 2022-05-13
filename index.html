@@ -17,6 +17,7 @@
 		}
 		.nav:hover{
 			opacity: 1;
+			transition: opacity 0.5s;
 		}
 		.banner{
 			width: 100%;
@@ -24,6 +25,11 @@
 			background-image: url("image/iphone.png");
 			background-size: 100%;
 			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.banner:hover{
+			background-size: 102%;
+			transition: background-size 1s;
 		}
 		.icon{
 			margin-left: 180px;
@@ -55,6 +61,16 @@
 			margin-right: 5px;
 			background-color: #cccccc;
 		}
+
+		.am1{
+			opacity: 0.5;
+			width: 100%;
+			margin-top: -40px;
+		}
+		.am1:hover{
+			opacity: 1;
+			transition: opacity 1s;
+		}
 		a{
 			text-decoration: none;
 			font-family: arial;
@@ -64,6 +80,19 @@
 		}
 		a:hover{
 			color: #ffffff;
+		}
+		h2{
+			color: #444444;
+			text-align: center;
+			font-family: arial;
+		}
+		.desc{
+			font-size: 13px;
+			margin-top: -30px;
+			text-indent: 40px;
+			text-align: justify;
+			margin-left: 40px;
+			margin-right: 40px;
 		}
 	</style>
 </head>
@@ -79,13 +108,19 @@
 	<p class="nota">Pague seu novo iPhone em até 12 parcelas ou economize 10% nos pagamentos à vista.</p>
 	<div class="amostra">
 		<div class="am">
-			
+			<h2>Iphone 13 Pro</h2>
+				<img src="image/iphone13.png" class="am1">
+					<p class="desc"> Novo sistema de câmera dramaticamente mais poderoso. Tela responsiva que surpreende a cada toque. O chip de smartphone mais rápido do mundo. Design com resistência fora de série. E um salto imenso na duração da bateria. </p>
 		</div>
 		<div class="am">
-			
+			<h2>Iphone SE</h2>
+				<img src="image/iphonese.png" class="am1">
+					<p class="desc"> Novo sistema de câmera dramaticamente mais poderoso. Tela responsiva que surpreende a cada toque. O chip de smartphone mais rápido do mundo. Design com resistência fora de série. E um salto imenso na duração da bateria. </p>
 		</div>
 		<div class="am">
-			
+			<h2>Iphone 12</h2>
+				<img src="image/iphone13.png" class="am1">
+					<p class="desc"> Novo sistema de câmera dramaticamente mais poderoso. Tela responsiva que surpreende a cada toque. O chip de smartphone mais rápido do mundo. Design com resistência fora de série. E um salto imenso na duração da bateria. </p>
 		</div>
 	</div>
 </body>

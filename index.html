@@ -14,6 +14,7 @@
 			height: 45px;
 			background-color: #323232;
 			position: fixed;
+			z-index: 2
 		}
 		.nav:hover{
 			opacity: 1;
@@ -26,9 +27,10 @@
 			background-size: 100%;
 			background-repeat: no-repeat;
 			background-position: center;
+			z-index: 1;
 		}
 		.banner:hover{
-			background-size: 102%;
+			background-size: 105%;
 			transition: background-size 1s;
 		}
 		.icon{
@@ -66,8 +68,19 @@
 			opacity: 0.5;
 			width: 100%;
 			margin-top: -40px;
+			z-index: 1;
 		}
 		.am1:hover{
+			opacity: 1;
+			transition: opacity 1s;
+		}
+		.am2{
+			opacity: 0.5;
+			width: 70%;
+			margin-left: 50px;
+			z-index: 1;
+		}
+		.am2:hover{
 			opacity: 1;
 			transition: opacity 1s;
 		}
@@ -94,6 +107,14 @@
 			margin-left: 40px;
 			margin-right: 40px;
 		}
+		.desc2{
+			font-size: 13px;
+			margin-top: 0px;
+			text-indent: 40px;
+			text-align: justify;
+			margin-left: 40px;
+			margin-right: 40px;
+		}
 	</style>
 </head>
 <body>
@@ -115,12 +136,12 @@
 		<div class="am">
 			<h2>Iphone SE</h2>
 				<img src="image/iphonese.png" class="am1">
-					<p class="desc"> Novo sistema de câmera dramaticamente mais poderoso. Tela responsiva que surpreende a cada toque. O chip de smartphone mais rápido do mundo. Design com resistência fora de série. E um salto imenso na duração da bateria. </p>
+					<p class="desc"> O centro das novidades sobre o iPhone SE é que ele já chega com os superpoderes do chip A15 Bionic. O mesmo do iPhone 13. O chip A15 Bionic agiliza praticamente tudo o que você faz com o iPhone. Os apps carregam rápido e fluem perfeitamente. </p>
 		</div>
 		<div class="am">
 			<h2>Iphone 12</h2>
-				<img src="image/iphone13.png" class="am1">
-					<p class="desc"> Novo sistema de câmera dramaticamente mais poderoso. Tela responsiva que surpreende a cada toque. O chip de smartphone mais rápido do mundo. Design com resistência fora de série. E um salto imenso na duração da bateria. </p>
+				<img src="image/iphone12.png" class="am2">
+					<p class="desc2"> O iPhone 12 mini e o iPhone 12 têm os mesmos recursos. Os dois têm conexão 5G super-rápida³, um sistema de câmera dupla com modo Noite e gravação de vídeo HDR. Ambos vêm com o chip A14 Bionic, um design resistente com Ceramic Shield e a tela Super Retina XDR.</p>
 		</div>
 	</div>
 </body>
